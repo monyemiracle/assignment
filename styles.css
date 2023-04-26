@@ -87,6 +87,7 @@ body{
     height:100vh;
     background-color: rgb(229,229,229);
     background-size: cover;
+    overflow-x: hidden;
 }
 .content{
     width: 1200px;
@@ -166,7 +167,7 @@ span{
     position: relative;
     left: 10pc;
 }
-hr{
+.bat{
     width:30pc;
     position: relative;
     left: 10pc;
@@ -205,4 +206,120 @@ h4{
     top:38.9pc;
     display: flex;
     gap:2rem;
+}
+.car{
+    width:62pc;
+    position: relative;
+    left: 10pc;
+}
+.hey{
+    font-size: 5pc;
+    position: relative;
+    left:10pc;
+    display: flex;
+    gap:8pc;
+    
+}
+.how{
+    font-size: 22px;
+    position: relative;
+    left:10pc;
+}
+.hero{
+    font-size: 22px;
+    position: relative;
+    left:10pc;
+    border: 10px;
+    width:14pc;
+    height: 14pc;
+    background-color:white;
+    text-align: center;
+}
+.you{
+    font-size: 22px;
+    position: absolute;
+    left:29pc;
+    border: 10px;
+    width:14pc;
+    height: 14pc;
+    background-color:white;
+    text-align: center;
+    top: 59pc;
+}
+.he{
+    font-size: 22px;
+    position: absolute;
+    left:48pc;
+    border: 10px;
+    width:14pc;
+    height: 14pc;
+    background-color:white;
+    text-align: center;
+    top: 59pc;
+}
+.her{
+    font-size: 20px;
+    position: absolute;
+    left:9pc ;
+    gap:2rem;
+    display: flex;
+}
+.she{
+    font-size: 20px;
+    position: absolute;
+    left:29pc ;
+    gap:2rem;
+    display: flex;
+}
+.cat{
+    font-size: 20px;
+    position: absolute;
+    left:46pc ;
+    gap:2rem;
+    display: flex;
+}
+.you img{
+    width:80px;
+    position: relative;
+    right: 70px;
+}
+.he img{
+    width:80px;
+    position: relative;
+    right: 70px;
+}
+.hero img{
+    width:80px;
+    position: relative;
+    right: 70px;
+}
+.you h4{
+    position: absolute;
+    left:8pc;
+    top:1pc;
+}
+.hero h4{
+    position: absolute;
+    left:8pc;
+    top:1pc;
+}
+.he h4{
+    position: absolute;
+    left:8pc;
+    top:1pc;
+}
+.you h3{
+    position:relative;
+    left:1px;
+    font-size: 10px;
+}
+.hero h3{
+    position:relative;
+    left:1px;
+    font-size: 10px;
+}
+.he h3{
+    position:relative;
+    left:1px;
+    font-size: 10px;
 }
