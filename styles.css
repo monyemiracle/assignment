@@ -44,10 +44,8 @@ ul li a{
     color: BLACK;
     font-family: Arial;
     font-weight: bold;
-    transition: 0.4s ease-in-out;
-
+    transition: 0.4s linear;
 }
-
 .logo{
     color: black;
     font-size: 35px;
@@ -166,6 +164,7 @@ span{
     border-radius: 10px;
     position: relative;
     left: 10pc;
+    background-color: rgb(159, 217, 236);
 }
 .bat{
     width:30pc;
@@ -258,25 +257,41 @@ h4{
     top: 59pc;
 }
 .her{
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
     left:9pc ;
     gap:2rem;
     display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.her span{
+    font-size: 25px;
+    color: rgb(178, 158, 158);
 }
 .she{
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
     left:29pc ;
     gap:2rem;
     display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.she span{
+    font-size: 25px;
+    color:rgb(178, 158, 158);
 }
 .cat{
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
     left:46pc ;
     gap:2rem;
     display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.cat span{
+    font-size: 25px;
+    color:rgb(178, 158, 158);
 }
 .you img{
     width:80px;
@@ -312,14 +327,50 @@ h4{
     position:relative;
     left:1px;
     font-size: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .hero h3{
     position:relative;
     left:1px;
     font-size: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .he h3{
     position:relative;
     left:1px;
     font-size: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.goat i{
+    position: absolute;
+    left: 9pc;
+    top: 39.5pc;
+    border: 4rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    
+}
+.believe button{
+    position: absolute;
+    left: 21pc;
+    width:8pc;
+    height:3pc;
+    border-radius: 10px;
+    top: 27.6pc;
+    background-color: #fff;
+}
+.at{
+    font-size: 25px;
+    position: absolute;
+    left:25pc ;
+    gap:2rem;
+    display: flex;
+}
+.pray{
+    position: relative;
+    left: 20pc;
+}
+.pray img{
+    width:20pc;
+    
 }
