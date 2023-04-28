@@ -339,7 +339,7 @@ h4{
     position:relative;
     left:1px;
     font-size: 10px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
 }
 .goat i{
     position: absolute;
@@ -373,4 +373,76 @@ h4{
 .pray img{
     width:20pc;
     
+}
+.white{
+    border: 150pc;
+    background-color: #fff;
+    height: 80pc;
+}
+.black{
+    position:absolute;
+    left:45pc;
+    top:95pc;
+}
+.black img{
+    width:20pc;
+}
+.will h4{
+    position: relative;
+    left:19pc;
+    font-size: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.upp{
+    position:absolute;
+    left:35pc;
+    top:117pc;
+}
+.upp h4{
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.still{
+    position: absolute;
+    left:60pc;
+    top: 120pc;
+}
+.still img{
+    width:15pc;
+}
+.still p{
+    position: relative;
+    left:10.5px;
+    color:rgb(178, 158, 158);
+}
+.still h2{
+    position: relative;
+    left:10.5px;
+}
+.still h4{
+    position: relative;
+    left:0px;
+    font-size: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.will button{
+    position: relative;
+    left:20pc;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:9pc;
+    height: 2.5pc;
+    background-color: rgb(159, 217, 236);
+}
+.about h2{
+    position: relative;
+    left:20pc;
+    font-size: 19px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about h3{
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 18pc;
 }
