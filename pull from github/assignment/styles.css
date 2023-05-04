@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+
+.menu{
+    width:400px;
+    float: left;
+    height:70px;
+    position: relative;
+    left:8pc;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:green;
+}
+
+ul{
+    float: left ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: BLACK;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s linear;
+}
+.logo{
+    color: black;
+    font-size: 35px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    position: relative;
+    left: 5pc;
+}
+
+.btnn{
+    width:180px;
+    height:60px;
+    border:none;
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    color:pointer;
+    color:#fff;
+    transition: 0.4s ease;
+    float: left;
+    position: relative;
+    left:25pc;
+}
+
+.btnn a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    background-color: rgb(229,229,229);
+    background-size: cover;
+    overflow-x: hidden;
+}
+.content{
+    width: 1200px;
+    height:auto;
+    margin: auto;
+    color:black;
+    position: relative;
+}
+
+.content.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Poppins' sans-serif;
+    letter-spacing: 1.2pc;
+    line-height: 30px;
+
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 14%;
+    letter-spacing: 2px;
+    position: relative;
+    left:8pc;
+}
+
+.content .a:hover{
+    color:#ff7200;
+}
+
+.content .cn{
+    width:160px;
+    height:40px;
+    background: #ff7200;
+    border:none;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content p{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    position: relative;
+    left:8pc;
+}
+span{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    position: absolute;
+}
+
+.photo{ 
+    position:absolute;
+    left:45pc;
+    width:100pc;
+    top: 10pc;
+}
+
+.btn button{
+    width:10pc;
+    height:3pc;
+    border-radius: 10px;
+    position: relative;
+    left: 10pc;
+    background-color: rgb(159, 217, 236);
+}
+.bat{
+    width:30pc;
+    position: relative;
+    left: 10pc;
+}
+.par{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    position: relative;
+    left:9pc;
+}
+h3{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    position: relative;
+    left:9pc;
+}
+h4{
+    font-family: 'Times New Roman';
+    font-size: 8px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    position: relative;
+    left:9pc;
+}
+.tar{
+    font-family: 'Times New Roman';
+    font-size: 17px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    position:absolute;
+    left:44pc; 
+    top:38.9pc;
+    display: flex;
+    gap:2rem;
+}
+.car{
+    width:62pc;
+    position: relative;
+    left: 10pc;
+}
+.hey{
+    font-size: 5pc;
+    position: relative;
+    left:10pc;
+    display: flex;
+    gap:8pc;
+    
+}
+.how{
+    font-size: 22px;
+    position: relative;
+    left:10pc;
+}
+.hero{
+    font-size: 22px;
+    position: relative;
+    left:10pc;
+    border: 10px;
+    width:14pc;
+    height: 14pc;
+    background-color:white;
+    text-align: center;
+}
+.you{
+    font-size: 22px;
+    position: absolute;
+    left:29pc;
+    border: 10px;
+    width:14pc;
+    height: 14pc;
+    background-color:white;
+    text-align: center;
+    top: 59pc;
+}
+.he{
+    font-size: 22px;
+    position: absolute;
+    left:48pc;
+    border: 10px;
+    width:14pc;
+    height: 14pc;
+    background-color:white;
+    text-align: center;
+    top: 59pc;
+}
+.her{
+    font-size: 15px;
+    position: absolute;
+    left:9pc ;
+    gap:2rem;
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.her span{
+    font-size: 25px;
+    color: rgb(178, 158, 158);
+}
+.she{
+    font-size: 15px;
+    position: absolute;
+    left:29pc ;
+    gap:2rem;
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.she span{
+    font-size: 25px;
+    color:rgb(178, 158, 158);
+}
+.cat{
+    font-size: 15px;
+    position: absolute;
+    left:46pc ;
+    gap:2rem;
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.cat span{
+    font-size: 25px;
+    color:rgb(178, 158, 158);
+}
+.you img{
+    width:80px;
+    position: relative;
+    right: 70px;
+}
+.he img{
+    width:80px;
+    position: relative;
+    right: 70px;
+}
+.hero img{
+    width:80px;
+    position: relative;
+    right: 70px;
+}
+.you h4{
+    position: absolute;
+    left:8pc;
+    top:1pc;
+}
+.hero h4{
+    position: absolute;
+    left:8pc;
+    top:1pc;
+}
+.he h4{
+    position: absolute;
+    left:8pc;
+    top:1pc;
+}
+.you h3{
+    position:relative;
+    left:1px;
+    font-size: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.hero h3{
+    position:relative;
+    left:1px;
+    font-size: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.he h3{
+    position:relative;
+    left:1px;
+    font-size: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+.goat i{
+    position: absolute;
+    left: 9pc;
+    top: 39.5pc;
+    border: 4rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    
+}
+.believe button{
+    position: absolute;
+    left: 21pc;
+    width:8pc;
+    height:3pc;
+    border-radius: 10px;
+    top: 27.6pc;
+    background-color: #fff;
+}
+.at{
+    font-size: 25px;
+    position: absolute;
+    left:25pc ;
+    gap:2rem;
+    display: flex;
+}
+.pray{
+    position: relative;
+    left: 20pc;
+}
+.pray img{
+    width:20pc;
+    
+}
+.white{
+    border:150pc;
+    background-color: #fff;
+    height: 120pc;
+}
+.black{
+    position:absolute;
+    left:45pc;
+    top:95pc;
+}
+.black img{
+    width:20pc;
+}
+.will h4{
+    position: relative;
+    left:19pc;
+    font-size: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.upp{
+    position:absolute;
+    left:35pc;
+    top:117pc;
+}
+.upp h4{
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.still{
+    position: absolute;
+    left:60pc;
+    top: 120pc;
+}
+.still img{
+    width:15pc;
+}
+.still p{
+    position: relative;
+    left:10.5px;
+    color:rgb(178, 158, 158);
+}
+.still h2{
+    position: relative;
+    left:10.5px;
+}
+.still h4{
+    position: relative;
+    left:0px;
+    font-size: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.will button{
+    position: relative;
+    left:20pc;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:9pc;
+    height: 2.5pc;
+    background-color: rgb(159, 217, 236);
+}
+.about h2{
+    position: relative;
+    left:20pc;
+    font-size: 19px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about h3{
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 18pc;
+}
+.soft img{
+    width:45pc;
+}
+.soot img{
+    position: absolute;
+    left: 47pc;
+    width:40pc;
+    top:164.5pc;
+    height:30pc;
+}
+.sart{
+    position: relative;
+    left:13pc;
+}
